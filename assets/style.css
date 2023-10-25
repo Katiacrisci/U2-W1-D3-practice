@@ -3,52 +3,59 @@
 body {
   font-family:'Roboto', sans-serif;;
 }
+main div {
+  display: flex;
+  flex-direction: row;
+}
 
-
-.honey {
+main .honey {
   display: flex;
   flex-direction: column;
   width: 30%;
   background-color: bisque;
   border-radius: 25%;
-  margin: auto;
+  margin: 10px;
   overflow: hidden;
 }
-.honey div img {
+main .honey div img {
   width: 100%;
 }
-.honey-footer {
+main .honey-footer {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
   padding: 30px;
 }
-.bg-honey {
+main .bg-honey {
   background-image: url("../flex-exercise-assets/assets/imgs/honey.jpg");
   height: 400px;
   background-position: center;
   
 }
-h1 {
-  font-size: 2rem;
+ main h1 {
+  font-size: 4rem;
   font-weight: bold;
-  padding: 5px;
+  padding: 50px;
+  color: rgb(129, 36, 36);
 }
-.honey-footer p:nth-of-type(1) {
+main .honey-footer div h1 {
+  font-size: 2rem;
+}
+ main .honey-footer p:nth-of-type(1) {
   font-size: 1.5rem;
   padding: 5px;
 }
-.honey-footer div:nth-of-type(2) p {
+main .honey-footer div:nth-of-type(2) p {
   font-size: 2rem;
 }
-.honey div:nth-of-type(3) {
+ main .honey div:nth-of-type(3) {
   display: flex;
   justify-content: center;
   padding-bottom: 20px;
   
 }
-.honey div:nth-of-type(3) button {
+ main .honey div:nth-of-type(3) button {
   padding: 20px 70px;
   background-color: rgb(241, 217, 79);
   border-radius: 30px;
@@ -56,5 +63,70 @@ h1 {
   font-size: 1.5rem;
   color: rgb(129, 36, 36);
   
+}
+
+/* stile navbar */
+
+button {
+  background-color: rgb(241, 217, 79);
+  color: rgb(129, 36, 36);
+  padding: 0px 50px;
+  border-radius: 40px;
+  font-size: 2rem;
+  height: 60px;
+  border: unset;
+}
+nav div {
+  display: flex;
+  justify-content: space-between;
+background-color: bisque;
+padding: 30px;
+align-items: center;
+}
+
+
+div button:nth-of-type(3) img {
+  width: 90px;
+  height: 60%;
+}
+#shop-btn {
+  font-weight: bolder;
+  height: 120px;
+  flex-grow: 0.25;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 70px;
+}
+
+/* stile article */
+
+#honey-description {
+  width: 90%;
+  background-color: bisque;
+  padding: 30px;
+  display: flex;
+  margin: auto;
+  border-radius: 30px;
+}
+#honey-description p {
+  font-size: 1.3rem;
+}
+@media screen and (max-width: 768px) {
+  #honey-description {
+    flex-direction: column-reverse;
+  }
+}
+#honey-description div {
+  padding: 30px;
+  line-height: 1.2;
+}
+#honey-description h1 {
+  font-size: 2rem;
+  padding-bottom: 10px;
+  color:rgb(129, 36, 36);
+}
+#honey-description p {
+  color: rgb(129, 36, 36);
 }
 
