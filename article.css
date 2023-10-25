@@ -1,7 +1,28 @@
 #honey-description {
-  width: 100%;
+  width: 90%;
   background-color: bisque;
-  padding: 20px;
+  padding: 30px;
   display: flex;
-  
+  margin: auto;
+  border-radius: 30px;
+}
+#honey-description p {
+  font-size: 1.3rem;
+}
+@media screen and (max-width: 768px) {
+  #honey-description {
+    flex-direction: column-reverse;
+  }
+}
+#honey-description div {
+  padding: 30px;
+  line-height: 1.2;
+}
+#honey-description h1 {
+  font-size: 2rem;
+  padding-bottom: 10px;
+  color:rgb(129, 36, 36);
+}
+#honey-description p {
+  color: rgb(129, 36, 36);
 }
