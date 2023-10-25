@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+  font-family:'Roboto', sans-serif;;
+}
+
+
+.honey {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  background-color: bisque;
+  border-radius: 25%;
+  margin: auto;
+  overflow: hidden;
+}
+.honey div img {
+  width: 100%;
+}
+.honey-footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
+}
+.bg-honey {
+  background-image: url("../flex-exercise-assets/assets/imgs/honey.jpg");
+  height: 400px;
+  background-position: center;
+  
+}
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 5px;
+}
+.honey-footer p:nth-of-type(1) {
+  font-size: 1.5rem;
+  padding: 5px;
+}
+.honey-footer div:nth-of-type(2) p {
+  font-size: 2rem;
+}
+.honey div:nth-of-type(3) {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+  
+}
+.honey div:nth-of-type(3) button {
+  padding: 20px 70px;
+  background-color: rgb(241, 217, 79);
+  border-radius: 30px;
+  border: unset;
+  font-size: 1.5rem;
+  color: rgb(129, 36, 36);
+  
+}
+

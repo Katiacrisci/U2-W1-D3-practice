@@ -1,0 +1,29 @@
+button {
+  background-color: rgb(241, 217, 79);
+  color: rgb(129, 36, 36);
+  padding: 0 10px;
+  border-radius: 40px;
+  font-size: 2rem;
+  height: 60px;
+  border: unset;
+}
+nav div {
+  display: flex;
+  justify-content: space-between;
+background-color: bisque;
+padding: 30px;
+border-radius: 60px;
+align-items: center;
+}
+ div button:nth-of-type(3) {
+  flex-grow: 0.1;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+div button:nth-of-type(3) img {
+  width: 50px;
+}
+#shop-btn {
+  padding: 20px 0;
+}
