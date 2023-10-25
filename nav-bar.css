@@ -1,7 +1,7 @@
 button {
   background-color: rgb(241, 217, 79);
   color: rgb(129, 36, 36);
-  padding: 0 10px;
+  padding: 0px 50px;
   border-radius: 40px;
   font-size: 2rem;
   height: 60px;
@@ -15,15 +15,18 @@ padding: 30px;
 border-radius: 60px;
 align-items: center;
 }
- div button:nth-of-type(3) {
-  flex-grow: 0.1;
-  display: flex;
-  justify-content: space-between;
-  padding: 20px;
-}
+
+
 div button:nth-of-type(3) img {
-  width: 50px;
+  width: 90px;
+  height: 60%;
 }
 #shop-btn {
-  padding: 20px 0;
+  font-weight: bolder;
+  height: 120px;
+  flex-grow: 0.25;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 70px;
 }
